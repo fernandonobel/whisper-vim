@@ -1,6 +1,11 @@
 # whisper-vim
 
-`whisper-vim` integrates OpenAI's Whisper into VIM's text editor so you can transcribe your voice to text with a single keystroke.
+`whisper-vim` integrates [OpenAI's Whisper](https://openai.com/research/whisper) into VIM so you can transcribe your voice to text with a single keystroke.
+
+`whisper-vim` is just:
+
+* a bash script that calls `sox` to record your voice and then calls `whisper-cli` to transcribe the audio into text
+* a VIM mapping to call this script easily. 
 
 https://github.com/fernandonobel/whisper-vim/assets/30172734/1ddf97b9-e90d-4277-aed6-b7b5b8c01773
 
@@ -12,8 +17,6 @@ https://github.com/fernandonobel/whisper-vim/assets/30172734/1ddf97b9-e90d-4277-
 
 ## Features
 
-`whisper-vim` is just a bash script that calls `sox` to record your voice and then calls `whisper-cli` to use Whisper's OpenAI API to transcript the audio into text. Lastly, you have a mapping in VIM to call this script easily. 
-
 Advantages:
 
 - Easy-to-install: you don't need to install whisper locally.
@@ -22,7 +25,7 @@ Advantages:
 
 Disadvantages:
 
-- You need a OpenAI key, which you have to spend money, but you have 5€ for free to test it.
+- You need a OpenAI key, which you have to spend money on, but you get 5€ for free if you create a new account.
  
 ## Installation
 
