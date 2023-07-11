@@ -57,7 +57,7 @@ cp whisper-vim ~/bin/whisper-vim
 Finally, add this mapping into your `.vimrc`:
 
 ```vim
-nnoremap X :!whisper-vim record<CR>:!whisper-vim transcribe<CR>:let @a = system("cat /tmp/whisper-recording.txt")<CR>"ap
+nnoremap <C-x> :!whisper-vim record<CR>:!whisper-vim transcribe<CR>:let @a = system("cat /tmp/whisper-recording.txt")<CR>"ap
 ```
 
 ## Contribute
