@@ -2,6 +2,8 @@
 
 `whisper-vim` integrates OpenAI's Whisper into VIM's text editor so you can transcribe your voice to text with a single keystroke.
 
+https://github.com/fernandonobel/whisper-vim/assets/30172734/1ddf97b9-e90d-4277-aed6-b7b5b8c01773
+
 ## Usage
 
 * In normal mode, press `Ctrl-X` to start recording your voice.
