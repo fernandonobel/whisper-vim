@@ -1,4 +1,5 @@
 # whisper-vim
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 `whisper-vim` integrates [OpenAI's Whisper](https://openai.com/research/whisper) into VIM so you can transcribe your voice to text with a single keystroke.
 
