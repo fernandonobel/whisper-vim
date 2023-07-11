@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$1" = "record" ]; then
+
+  echo "Recording audio, press Ctrl-C to stop..."
+  sox -t alsa default /tmp/whisper-recording.wav
+
+elif [ "$1" = "transcribe" ]; then
+
+  echo "Transcribing with whisper, please wait..."
+  whisper transcribe --language es /tmp/whisper-recording.wav | tr -d '\n' > /tmp/whisper-recording.txt
+  cat /tmp/whisper-recording.txt
+
+fi
