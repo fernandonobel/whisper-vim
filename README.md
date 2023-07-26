@@ -8,9 +8,9 @@
 * a bash script that calls `sox` to record your voice and then calls `whisper-cli` to transcribe the audio into text
 * a VIM mapping to call this script easily. 
 
-https://github.com/fernandonobel/whisper-vim/assets/30172734/1ddf97b9-e90d-4277-aed6-b7b5b8c01773
-
 Please take a look at this [Substack article](https://eljardindegestalt.substack.com/p/por-que-un-1-de-caos-es-deseable) where I further explain the personal context around this `whisper-vim` :-)
+
+https://github.com/fernandonobel/whisper-vim/assets/30172734/1ddf97b9-e90d-4277-aed6-b7b5b8c01773
 
 ## Usage
 
