@@ -10,6 +10,8 @@
 
 https://github.com/fernandonobel/whisper-vim/assets/30172734/1ddf97b9-e90d-4277-aed6-b7b5b8c01773
 
+Please take a look at this [Substack article](https://eljardindegestalt.substack.com/p/por-que-un-1-de-caos-es-deseable) where I further explain the personal context around this `whisper-vim` :-)
+
 ## Usage
 
 * In `NORMAL` mode, press `Ctrl-X` to start recording your voice.
